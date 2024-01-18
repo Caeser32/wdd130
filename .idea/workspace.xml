@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceca8627-00de-4106-be1e-9940956df480" name="Changes" comment="">
+    <list default="true" id="ceca8627-00de-4106-be1e-9940956df480" name="Changes" comment="Add wireframe html, including header,main,footer.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week02/wireframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/week02/wireframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2b8tJcaGy75ciC78kD4Hm56CLBo" />
@@ -37,6 +44,18 @@
       <option name="presentableId" value="Default" />
       <updated>1705608462783</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add wireframe html, including header,main,footer.">
+      <created>1705614313376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705614313376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add wireframe html, including header,main,footer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add wireframe html, including header,main,footer." />
   </component>
 </project>
