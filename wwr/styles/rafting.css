@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=YourSelectedFont&family=Pacifico&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #0a2463;
+  --secondary-color: #d8315b;
+  --accent1-color: #3e92cc;
+  --accent2-color: #fffaff;
+  --heading-font: 'Pacifico', cursive;
+  --paragraph-font: 'Playfair Display', serif;
+  --nav-background-color: #1e1b18;
+  --nav-link-color: #fffaff;
+  --nav-hover-link-color: #d8315b;
+  --nav-hover-background-color: #0a2463;
+  --text-color: #333;
+  --background-color: #f2f2f2;
+  --opacity: 0.8;
+}
+
+body {
+  font-family: 'YourSelectedFont', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+main {
+  position: relative;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+article {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, var(--opacity));
+  padding: 10px;
+  max-width: 300px;
+  text-align: left;
+}
+
+article img {
+  float: right;
+  margin-left: 10px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  color: white;
+}
+
+.sociallinks a {
+  text-decoration: none;
+}
+
+.sociallinks img {
+  width: 30px;
+  margin: 0 5px;
+}
