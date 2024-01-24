@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceca8627-00de-4106-be1e-9940956df480" name="Changes" comment="complete the wwr activity">
+    <list default="true" id="ceca8627-00de-4106-be1e-9940956df480" name="Changes" comment="completed updates on the Index html for Enhancing Your Course Home Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwr/site-plan-rafting.html" beforeDir="false" afterPath="$PROJECT_DIR$/wwr/site-plan-rafting.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705662036354</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="completed updates on the Index html for Enhancing Your Course Home Page">
+      <created>1706121458022</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706121458022</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add wireframe html, including header,main,footer." />
     <MESSAGE value="complete the home page enhancement activity" />
     <MESSAGE value="complete the wwr activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete the wwr activity" />
+    <MESSAGE value="completed updates on the Index html for Enhancing Your Course Home Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed updates on the Index html for Enhancing Your Course Home Page" />
   </component>
 </project>
