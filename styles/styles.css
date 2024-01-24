@@ -1,5 +1,5 @@
 
-{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,10 +17,11 @@ aside {
   background-color: #eee;
   color: #333;
   text-align: center;
+  position: relative;
 }
 
 aside img {
-  width: 200px;
+  width: 100%;
   height: auto;
 }
 
@@ -35,22 +36,25 @@ nav a {
   padding: 20px;
 }
 
+
 h1 {
   color: steelblue;
 }
 
 aside h2 {
   position: absolute;
-  top: 47px;
-  left: 150px;
+  top: 0px;
+  right: 160px;
+  color: #ddd;
+}
 
 main img {
-  float: right;
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
 }
 
 p {
@@ -71,3 +75,7 @@ footer {
   padding: 1rem;
   background-color: #ddd;
   color: #000;
+}
+.indent{
+  padding-left: 2rem;
+}
