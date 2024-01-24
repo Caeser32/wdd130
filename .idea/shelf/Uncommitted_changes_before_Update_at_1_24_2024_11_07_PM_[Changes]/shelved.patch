@@ -1,0 +1,21 @@
+Index: wwr/about.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/wwr/about.html b/wwr/aboutus.html
+rename from wwr/about.html
+rename to wwr/aboutus.html
+--- a/wwr/about.html	(revision bf36bd46aa712097a532f42a3fa2c8999c0c3687)
++++ b/wwr/aboutus.html	(date 1706130413006)
+@@ -13,8 +13,8 @@
+   <header>
+     <img src="images/dryoar.png" alt="Rafting Company Logo">
+     <nav>
+-      <a href="index.html">Home</a>
+-      <a href="about.html">About</a>
++      <a href="wrr/index.html">Home</a>
++      <a href="wwr/aboutus.html">About</a>
+       <a href="trips.html">Trips</a>
+       <a href="contact.html">Contact</a>
+     </nav>
