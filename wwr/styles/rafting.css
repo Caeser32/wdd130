@@ -33,19 +33,20 @@ h1, h2, h3, h4, h5, h6 {
 header {
   padding: 20px;
   background-color: var(--accent1-color);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
 }
 
 nav {
-  background-color: var(--nav-background-color);
-  font-size: 1.2rem;
   display: flex;
-}
-
-nav a {
-  display: block;
-  color: var(--nav-link-color);
-  text-decoration: none;
-  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
 }
 
 nav a:link, nav a:visited {
@@ -73,10 +74,25 @@ main {
 
 .hero h1 {
   position: absolute;
-  top: 50%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 10px;
 }
 
 article {
@@ -93,24 +109,21 @@ article img {
   float: right;
   margin-left: 10px;
 }
-
 section {
   margin: 20px 0;
+  padding: 20px;
+  background-color: var(--accent2-color);
 }
 
 footer {
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
   padding: 10px;
-  text-align: center;
-  margin-top: 50px;
+  text-align: right;
 }
 
-footer p {
-  color: white;
-}
-
-.sociallinks a {
-  text-decoration: none;
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .sociallinks img {
