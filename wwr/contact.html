@@ -72,8 +72,19 @@
                     <input type="text" class="form-control" placeholder="Phone No.">
                 </div>
                 <div>
+                    <label for="purpose">Purpose:</label>
+                    <select id="purpose" name="purpose" required="">
+                    <option value="general">General Inquiry</option>
+                    <option value="reservation">Reservation Question</option>
+                     <option value="suggestion">Website Suggestion</option>
+                </div>
+                <div>
                     <textarea rows="5" placeholder="Message" class="form-control"></textarea>
                     <input type="submit" class="send-btn" value="send message">
+                </div>
+                <div>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
                 </div>
             </form>
 
