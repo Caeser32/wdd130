@@ -1,17 +1,18 @@
-body {
-  font-size: 16px;
-  font-family: cursive fantasy;
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-size: 16px;
+  font-family: cursive fantasy;
+}
 
 header, .grid, footer {
   max-width: 840px;
   margin: 0 auto;
 }
-
 
 nav {
   background-color: steelblue;
@@ -20,7 +21,6 @@ nav {
   justify-content: space-evenly;
   align-items: center;
 }
-
 
 nav a {
   display: block;
@@ -33,17 +33,14 @@ nav a {
   transition: border-bottom 0.3s ease;
 }
 
-
 nav a:hover {
   border-bottom: 2px solid #fff;
 }
-
 
 h1 {
   color: steelblue;
   border-bottom: 1px solid #ddd;
 }
-
 
 .grid {
   display: grid;
@@ -59,7 +56,6 @@ main {
   align-items: center;
 }
 
-
 aside {
   width: 20rem;
   margin: 1rem;
@@ -73,6 +69,14 @@ aside {
   grid-row: 1/2;
 }
 
+aside h2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
 
 main img {
   width: 150px;
@@ -81,6 +85,7 @@ main img {
   padding: 2px;
   box-shadow: 0 0 30px gray;
   margin-bottom: 1rem;
+  float: right;
 }
 
 aside img {
@@ -113,4 +118,9 @@ footer {
 
 .indent {
   padding-left: 2rem;
+}
+
+.profile {
+  float: right;
+  margin: 1rem;
 }
