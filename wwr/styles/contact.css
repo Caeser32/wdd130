@@ -202,12 +202,12 @@ body{
     margin: 0;
     padding: 0;
   }
-  
+
   body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
   }
-  
+
   header {
     background-color: #0a2463;
     color: white;
@@ -215,36 +215,36 @@ body{
     display: flex;
     align-items: center;
   }
-  
+
   header img {
     max-width: 100%;
     height: auto;
   }
-  
+
   nav {
     margin-left: auto;
   }
-  
+
   nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
   }
-  
+
   nav a img {
     width: 20px;
     height: 20px;
   }
-  
+
   main {
     display: flex;
     padding: 20px;
   }
-  
+
   .section-wrapper {
     max-width: 400px;
   }
-  
+
   .company-info,
   .employee-profiles,
   .contact-form {
@@ -252,46 +252,46 @@ body{
     padding: 20px;
     margin-bottom: 20px;
   }
-  
+
   .company-info h2,
   .employee-profiles h2,
   .contact-form h2 {
     margin-bottom: 10px;
   }
-  
+
   .company-info p {
     margin-bottom: 10px;
   }
-  
+
   .employee {
     margin-bottom: 20px;
   }
-  
+
   .employee img {
-    max-width: 100%; 
+    max-width: 100%;
     height: 95%;
   }
-  
+
   .contact-form form {
     display: flex;
     flex-direction: column;
   }
-  
+
   .contact-form label {
     margin-bottom: 5px;
   }
-  
+
   .contact-form input,
   .contact-form select,
   .contact-form textarea {
     margin-bottom: 10px;
     padding: 5px;
   }
-  
+
   .contact-form textarea {
     resize: vertical;
   }
-  
+
   .contact-form input[type="submit"] {
     background-color: #0a2463;
     color: white;
@@ -299,52 +299,51 @@ body{
     padding: 10px;
     cursor: pointer;
   }
-  
+
   .contact-form input[type="submit"]:hover {
     background-color: #183b89;
   }
-  
+
   .checkbox-container {
     display: flex;
-    align-items: center; 
+    align-items: center;
   }
-  
+
   .checkbox-container input[type="checkbox"] {
     margin-right: 5px;
   }
-  
+
   .map-container {
-    width: 100%; 
+    width: 100%;
     height: 450px;
   }
-  
+
   .map {
     width: 100%;
     height: 100%;
   }
-  
+
   .address {
     margin-top: 20px;
   }
-  
+
   footer {
     background-color: #0a2463;
     color: white;
     padding: 20px;
     text-align: right;
   }
-  
+
   .sociallinks {
     display: flex;
     justify-content: flex-end;
   }
-  
+
   .sociallinks a {
     margin-left: 10px;
   }
-  
+
   .sociallinks a img {
     width: 20px;
     height: 20px;
   }
-  
