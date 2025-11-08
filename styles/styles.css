@@ -3,26 +3,26 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f8ff; /* AliceBlue for a soft background */
-  color: #1c3d5a; /* Dark blue for text for better readability */
+  background-color: #f0f8ff; 
+  color: #1c3d5a; 
 }
 
 /* Navigation Bar */
 nav {
-  background-color: #003366; /* Dark blue for the nav bar */
+  background-color: #003366; 
   padding: 0.5rem;
   text-align: center;
 }
 
 nav a {
-  color: #ffffff; /* White text for contrast */
+  color: #ffffff; 
   padding: 0.5rem 1rem;
   display: block;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #00509e; /* Medium blue for hover effect */
+  background-color: #00509e; 
 }
 
 /* Main Content */
@@ -30,13 +30,13 @@ main {
   max-width: 840px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #ffffff; /* White for content background */
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  color: #003366; /* Dark blue for headings */
+  color: #003366; 
   text-align: center;
   margin-bottom: 20px;
 }
@@ -46,7 +46,7 @@ main img {
   width: 150px;
   height: auto;
   border-radius: 50%;
-  border: 2px solid #00509e; /* Medium blue border */
+  border: 2px solid #00509e;
   padding: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: block;
@@ -57,7 +57,7 @@ main img {
 p {
   padding: 0;
   line-height: 1.6;
-  color: #1c3d5a; /* Dark blue for paragraph text */
+  color: #1c3d5a; 
 }
 
 /* Aside Section */
@@ -65,9 +65,9 @@ aside {
   width: 20rem;
   margin: 1rem auto;
   padding: 1rem;
-  background-color: #e6f0ff; /* Light blue tint for aside background */
+  background-color: #e6f0ff; 
   border: 1px solid rgba(0, 0, 0, 0.2);
-  color: #003366; /* Dark blue for text */
+  color: #003366; 
   text-align: center;
   border-radius: 6px;
 }
@@ -82,15 +82,15 @@ aside img {
 aside h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
-  color: #00509e; /* Medium blue for headings */
+  color: #00509e;
 }
 
 /* Footer */
 footer {
   margin-top: 15px;
-  border-top: 1px solid #00509e; /* Medium blue border */
+  border-top: 1px solid #00509e; 
   text-align: center;
   padding: 10px 0;
-  background-color: #ffffff; /* White background */
-  color: #003366; /* Dark blue text for visibility */
+  background-color: #ffffff; 
+  color: #003366; 
 }
