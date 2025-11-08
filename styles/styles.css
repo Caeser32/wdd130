@@ -91,6 +91,6 @@ footer {
   border-top: 1px solid #00509e; /* Medium blue border */
   text-align: center;
   padding: 10px 0;
-  background-color: #003366; /* Dark blue for footer background */
-  color: #ffffff; /* White text for contrast */
+  background-color: #ffffff; /* White background */
+  color: #003366; /* Dark blue text for visibility */
 }
