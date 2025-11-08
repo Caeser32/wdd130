@@ -3,72 +3,71 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #f0f8ff; /* AliceBlue for a soft background */
+  color: #1c3d5a; /* Dark blue for text for better readability */
 }
 
-/* Navigation Bar (required: background-color, padding) */
+/* Navigation Bar */
 nav {
-  background-color: #333;
+  background-color: #003366; /* Dark blue for the nav bar */
   padding: 0.5rem;
   text-align: center;
 }
 
-/* nav a (required: color, padding, display: block) */
 nav a {
-  color: white;
+  color: #ffffff; /* White text for contrast */
   padding: 0.5rem 1rem;
-  display: block; /* required by validator */
+  display: block;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #555;
+  background-color: #00509e; /* Medium blue for hover effect */
 }
 
-/* Main Content (required: max-width) */
+/* Main Content */
 main {
   max-width: 840px;
   margin: 20px auto;
   padding: 20px;
-  background-color: white;
+  background-color: #ffffff; /* White for content background */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* h1 (required: color) */
 h1 {
-  color: #222;
+  color: #003366; /* Dark blue for headings */
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* main img (required: width, height, border, padding, box-shadow) */
+/* Main Image */
 main img {
   width: 150px;
   height: auto;
   border-radius: 50%;
-  border: 2px solid #ccc;        /* required: border */
-  padding: 4px;                  /* required: padding */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* required: box-shadow */
+  border: 2px solid #00509e; /* Medium blue border */
+  padding: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: block;
   margin: 0 auto 20px;
 }
 
-/* Paragraphs (required: padding: 0) */
+/* Paragraphs */
 p {
   padding: 0;
   line-height: 1.6;
+  color: #1c3d5a; /* Dark blue for paragraph text */
 }
 
-/* Aside Section (required: width, margin, border, padding, background-color, color) */
+/* Aside Section */
 aside {
   width: 20rem;
   margin: 1rem auto;
   padding: 1rem;
-  background-color: #e6f0ff; /* soft blue tint per activity */
-  border: 1px solid rgb(0 0 0 / 0.2);
-  color: #0b3f6d; /* improved contrast for readability */
+  background-color: #e6f0ff; /* Light blue tint for aside background */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #003366; /* Dark blue for text */
   text-align: center;
   border-radius: 6px;
 }
@@ -83,14 +82,15 @@ aside img {
 aside h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
+  color: #00509e; /* Medium blue for headings */
 }
 
-/* Footer (required: margin-top, border-top, text-align) */
+/* Footer */
 footer {
   margin-top: 15px;
-  border-top: 1px solid #000;
+  border-top: 1px solid #00509e; /* Medium blue border */
   text-align: center;
   padding: 10px 0;
-  background-color: #333;
-  color: white;
+  background-color: #003366; /* Dark blue for footer background */
+  color: #ffffff; /* White text for contrast */
 }
