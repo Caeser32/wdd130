@@ -7,22 +7,22 @@ body {
     color: #333;
 }
 
-/* Header */
-header {
+/* Navigation Bar */
+nav {
     background-color: #333;
-    color: white;
+    padding: 0.5rem;
     text-align: center;
-    padding: 10px 0;
 }
 
-header nav a {
+nav a {
     color: white;
+    padding: 0.5rem 1rem;
+    display: inline-block;
     text-decoration: none;
-    margin: 0 10px;
 }
 
-header nav a:hover {
-    text-decoration: underline;
+nav a:hover {
+    background-color: #555;
 }
 
 /* Main Content */
@@ -35,10 +35,19 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+    color: #222;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 main img {
     width: 150px;
     height: auto;
     border-radius: 50%;
+    border: 2px solid #ccc;
+    padding: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: block;
     margin: 0 auto 20px;
 }
@@ -53,10 +62,12 @@ aside {
     width: 20rem;
     margin: 1rem auto;
     padding: 1rem;
-    background-color: #eee;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #e6f0ff;
+    /* soft blue tint per activity */
+    border: 1px solid rgb(0 0 0 / 0.2);
     color: #333;
     text-align: center;
+    border-radius: 6px;
 }
 
 aside img {
@@ -71,17 +82,12 @@ aside h2 {
     margin-bottom: 10px;
 }
 
-aside p {
-    text-align: justify;
-    line-height: 1.6;
-}
-
 /* Footer */
 footer {
     margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
     padding: 10px 0;
     background-color: #333;
     color: white;
-    text-align: center;
-    border-top: 1px solid #000;
 }
