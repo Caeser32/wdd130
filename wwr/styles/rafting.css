@@ -1,13 +1,13 @@
 
 :root {
-    --primary-color: #1B4965;
-    --secondary-color: #CAE9FF;
-    --accent1-color: #62B6CB;
-    --accent2-color: #F0F3BD;
+    --primary-color: #1B4965;     /* dark blue */
+    --secondary-color: #CAE9FF;   /* light blue */
+    --accent1-color: #1B4965;     /* dark blue (updated for contrast) */
+    --accent2-color: #F0F3BD;    
+
     --heading-font: "Georgia", serif;
     --body-font: "Arial", sans-serif;
 }
-
 
 * {
     margin: 0;
@@ -21,7 +21,6 @@ body {
     color: var(--primary-color);
     background-color: #fff;
 }
-
 
 header {
     width: 840px;
@@ -45,13 +44,13 @@ header nav a {
     font-weight: bold;
 }
 
-
 header nav a.active {
-    background-color: var(--accent1-color);
-    color: white;
+    background-color: var(--accent1-color); 
+    color: #ffffff;                         
     padding: 8px 12px;
     border-radius: 4px;
 }
+
 
 header nav a:hover {
     color: var(--accent1-color);
@@ -102,6 +101,7 @@ main {
     border-radius: 4px;
 }
 
+
 section {
     margin-top: 40px;
 }
@@ -109,7 +109,7 @@ section {
 section h2 {
     font-family: var(--heading-font);
     font-size: 1.8rem;
-    color: var(--accent2-color);
+    color: var(--primary-color); /* FIXED contrast */
     margin-bottom: 10px;
 }
 
@@ -117,6 +117,7 @@ section p {
     line-height: 1.5;
     color: #333;
 }
+
 
 footer {
     width: 840px;
