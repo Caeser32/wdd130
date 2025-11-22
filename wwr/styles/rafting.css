@@ -8,7 +8,6 @@
     --body-font: "Arial", sans-serif;
 
     --white: #ffffff;
-    --black: #000000;
 }
 
 
@@ -135,6 +134,7 @@ main {
     margin-bottom: 10px;
 }
 
+
 .adventures {
     margin-top: 40px;
 }
@@ -176,7 +176,6 @@ footer {
     justify-content: space-between;
     border-top: 2px solid var(--accent1-color);
 }
-
 
 footer nav img {
     width: 30px;
