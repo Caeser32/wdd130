@@ -1,3 +1,6 @@
+/* -------------------------------------------------
+   GLOBAL VARIABLES
+------------------------------------------------- */
 :root {
     --primary-color: #1b4965;
     --secondary-color: #cae9ff;
@@ -8,8 +11,12 @@
     --body-font: "Arial", sans-serif;
 
     --white: #ffffff;
+    --gray-border: #bbbbbb;
 }
 
+/* -------------------------------------------------
+   RESETS
+------------------------------------------------- */
 *,
 *::before,
 *::after {
@@ -24,6 +31,9 @@ body {
     background-color: var(--white);
 }
 
+/* -------------------------------------------------
+   HEADER
+------------------------------------------------- */
 header {
     width: 840px;
     margin: 0 auto;
@@ -61,15 +71,17 @@ header nav a:hover {
     color: var(--white);
 }
 
-/* ---------- MAIN ---------- */
-
+/* -------------------------------------------------
+   MAIN
+------------------------------------------------- */
 main {
     width: 840px;
     margin: 0 auto;
 }
 
-/* ---------- HERO (About Page) ---------- */
-
+/* -------------------------------------------------
+   HERO (About Page)
+------------------------------------------------- */
 .hero {
     position: relative;
     margin-top: 20px;
@@ -109,8 +121,9 @@ main {
     border-radius: 4px;
 }
 
-/* ---------- HISTORY (About Page) ---------- */
-
+/* -------------------------------------------------
+   HISTORY (About Page)
+------------------------------------------------- */
 .history {
     margin-top: 40px;
 }
@@ -127,10 +140,18 @@ main {
     border-radius: 6px;
 }
 
-/* ---------- ADVENTURES (About Page) ---------- */
-
+/* -------------------------------------------------
+   ADVENTURES (About Page)
+------------------------------------------------- */
 .adventures {
     margin-top: 40px;
+}
+
+.adventures h2 {
+    font-family: var(--heading-font);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .adventure-gallery {
@@ -148,7 +169,15 @@ main {
     border-radius: 6px;
 }
 
-/* CONTACT TITLE */
+.adventure-gallery figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* -------------------------------------------------
+   CONTACT PAGE
+------------------------------------------------- */
 .contact-title {
     text-align: center;
     margin-top: 25px;
@@ -162,7 +191,7 @@ main {
     line-height: 1.6;
 }
 
-/* GRID: MAP LEFT & FORM RIGHT */
+/* GRID: MAP LEFT + FORM RIGHT */
 .contact-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -171,7 +200,7 @@ main {
     align-items: start;
 }
 
-/* MAP BOX */
+/* MAP */
 .map-box {
     width: 100%;
 }
@@ -183,9 +212,9 @@ main {
     border-radius: 6px;
 }
 
-/* WHITE FORM BOX WITH YELLOW BORDER */
+/* WHITE FORM BOX */
 .form-container {
-    background: white;
+    background-color: var(--white);
     padding: 20px;
     border: 3px solid var(--accent2-color);
     border-radius: 8px;
@@ -208,11 +237,13 @@ form input[type="email"],
 form textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #bbb;
+    border: 1px solid var(--gray-border);
     border-radius: 5px;
+    background-color: var(--white);
+    color: var(--primary-color);
 }
 
-/* RADIO BUTTON ROW */
+/* RADIO GROUP */
 .radio-row {
     display: flex;
     flex-direction: column;
@@ -229,6 +260,7 @@ form textarea {
 .checkbox {
     display: flex;
     gap: 8px;
+    align-items: center;
 }
 
 /* SUBMIT BUTTON */
@@ -247,9 +279,9 @@ form textarea {
     background-color: var(--accent1-color);
 }
 
-
-/* ---------- EMPLOYEES ---------- */
-
+/* -------------------------------------------------
+   EMPLOYEES
+------------------------------------------------- */
 .employees {
     margin-top: 60px;
     text-align: center;
@@ -273,10 +305,12 @@ form textarea {
 .employee-gallery figcaption {
     margin-top: 8px;
     font-weight: bold;
+    color: var(--primary-color);
 }
 
-/* ---------- FOOTER ---------- */
-
+/* -------------------------------------------------
+   FOOTER
+------------------------------------------------- */
 footer {
     width: 840px;
     margin: 40px auto 20px;
@@ -284,6 +318,7 @@ footer {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid var(--accent1-color);
+    background-color: var(--white);
 }
 
 footer nav img {
