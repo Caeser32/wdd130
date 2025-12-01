@@ -7,8 +7,9 @@
 
     <title>Rafting Travel | Contact Us</title>
 
+    <meta name="description"
+        content="Contact White Water Rafting Company for inquiries, reservations, and website questions. Get support or send us a message today.">
 
-    <meta name="description" content="Contact Rafting Travel for inquiries, reservations, customer support, and rafting information at Dimalachite Nature Resort.">
     <meta name="author" content="Tumisang Msiza">
 
     <link rel="stylesheet" href="styles/rafting.css">
@@ -40,52 +41,48 @@
             </p>
         </div>
 
-
+     
         <div class="contact-layout">
 
+ 
             <div class="map-box">
                 <iframe class="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12678.769351210924!2d27.357232822272064!3d-26.9079591756585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e943d29d3b466f3%3A0x90715f45bcf1f399!2sWhite%20Water%20Rafting%20-%20Vaal%20river%20-%20Parys%20-%20Dimalachite!5e0!3m2!1sen!2sza!4v1764612786410!5m2!1sen!2sza"
-                    allowfullscreen="" loading="lazy">
-                </iframe>
+                    allowfullscreen="" loading="lazy"></iframe>
             </div>
 
+ 
             <div class="form-container">
                 <form>
 
-
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" required>
 
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
 
                     <p class="label-title">Message Purpose</p>
 
-                    <div class="radio-row">
+                    <label for="purpose-general">
+                        <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
 
-                        <label for="purpose-general">
-                            <input type="radio" id="purpose-general" name="purpose" value="general">
-                            General Inquiry
-                        </label>
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
 
-                        <label for="purpose-reservation">
-                            <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
-                            Reservation Question
-                        </label>
-
-                        <label for="purpose-suggestion">
-                            <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
-                            Website Suggestion
-                        </label>
-
-                    </div>
+                    <label for="purpose-website">
+                        <input type="radio" id="purpose-website" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
 
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="5"></textarea>
 
 
-                    <label for="subscribe" class="checkbox">
+                    <label class="checkbox" for="subscribe">
                         <input type="checkbox" id="subscribe" name="subscribe">
                         Please subscribe me to the monthly newsletter
                     </label>
@@ -94,10 +91,9 @@
 
                 </form>
             </div>
-
         </div>
 
-        <!-- EMPLOYEES -->
+
         <section class="employees">
             <h2>We Are Here to Serve You</h2>
 
@@ -128,13 +124,13 @@
 
         <nav class="socialmedia">
             <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook-square.svg" alt="Facebook">
+                <img src="images/facebook-square.svg" alt="Facebook Icon">
             </a>
             <a href="https://linkedin.com" target="_blank">
-                <img src="images/linkedin-square.svg" alt="LinkedIn">
+                <img src="images/linkedin-square.svg" alt="LinkedIn Icon">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="images/x-twitter.svg" alt="Twitter/X">
+                <img src="images/x-twitter.svg" alt="Twitter/X Icon">
             </a>
         </nav>
     </footer>
